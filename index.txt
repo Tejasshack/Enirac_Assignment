@@ -1,0 +1,142 @@
+Document Type Declaration (DOCTYPE): Defines the document type and version of HTML being used.
+
+HTML Tag: The root element of the HTML document.
+
+Head Section:
+- Meta Tags: Includes meta tags for character set, viewport, and description.
+- Title: Sets the title of the document.
+- Favicon: Sets the icon for the website.
+- Custom CSS: Links to an external stylesheet for custom styling.
+- Google Fonts: Links to Google Fonts for custom fonts.
+
+Body Section:
+- Header: Contains the website's header with a logo, navigation menu, and buttons.
+- Main Content:
+  - Hero Section: Displays a hero image with text and buttons.
+  - Cards for Jibber Data: Displays cards with images and descriptions.
+  - Destination Cards: Displays cards for top destinations with images and details.
+  - About Section: Provides information about booking trips in three easy steps.
+  - Blog Section: Displays testimonials.
+  - Company List: Displays logos of partner companies.
+  - Newsletter Section: Allows users to subscribe to newsletters.
+- Footer Section:
+  - Footer Mid Section: Displays company information, links, and social media icons.
+  - Footer Last Section: Displays the copyright information.
+  - Go to top button: Allows users to navigate to the top of the page.
+
+Custom JavaScript: Includes a script for custom functionality.
+
+Ionicon Scripts: Includes scripts for Ionicons, a library for using icon fonts.
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Title -->
+    <title>Jadoo - Explore the World</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Comforter+Brush&family=Heebo:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body id="top">
+    <!-- Header -->
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo-link">
+          <h1 class="logo">
+            <span>
+              <span>Jad</span>
+              <span class="yellow-background">o</span>
+              <span class="yellow-background">o</span>
+            </span>
+          </h1>
+        </a>
+
+        <button
+          class="nav-toggle-btn"
+          data-nav-toggle-btn
+          aria-label="Toggle Menu"
+        >
+          <ion-icon name="menu-outline" class="open"></ion-icon>
+          <ion-icon name="close-outline" class="close"></ion-icon>
+        </button>
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li><a href="#" class="navbar-link">Destinations</a></li>
+            <li><a href="#" class="navbar-link">Hotel</a></li>
+            <li><a href="#" class="navbar-link">Flight</a></li>
+            <li><a href="#" class="navbar-link">Bookings</a></li>
+            <li><a href="#" class="navbar-link">Login</a></li>
+          </ul>
+          <a href="#" class="btn btn-secondary" style="color: black">Sign Up</a>
+          <a href="#" class="btn btn-secondary" style="color: black">EN</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <article>
+        <!-- Hero Section -->
+
+        
+
+        <!-- Cards for Jibber Data -->
+
+      
+
+        <!-- Destination Cards -->
+
+
+        <!-- About Section -->
+
+       
+
+        <!-- Blog Section -->
+
+       
+
+        <!-- Newsletter Section -->
+
+
+      </article>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <!-- Footer Content -->
+
+    
+
+      <!-- Go to top button -->
+      <a href="#top" class="go-top" data-go-top aria-label="Go To Top">
+        <ion-icon name="chevron-up-outline"></ion-icon>
+      </a>
+    </footer>
+
+    <!-- Custom JavaScript -->
+    <script src="./assets/js/main.js"></script>
+
+    <!-- Ionicon Scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
